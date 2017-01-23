@@ -8,10 +8,10 @@ statement of license will not be accepted. 
 
 # Pull Request Process
 Contributors should: 
+- Fork a copy of the repository
 - Clone the project to your own machine
-- Create a branch 
 - Add your examples by following the guidelines in CONTRIBUTING.md 
-- Commit and push the changes to your branch
+- Commit and push the changes to your fork
 - Submit a pull request to have your contribution accepted into the main repository. 
  
 # Indicating your acceptance
