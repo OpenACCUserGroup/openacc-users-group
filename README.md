@@ -13,6 +13,7 @@ The CONTRIBUTING.md has further guidelines on how to make your contributions to 
 
 ### PolyBench-ACC
 Main Contributor: William Killian <killian@udel.edu> - University of Delaware
+
 Based off work by: Louis-Noel Pouchet <pouchet@cse.ohio-state.edu> - Ohio State University
 
 This benchmark suite is partially derived from the PolyBench benchmark suite developed by [Louis-Noel Pouchet](pouchet@cs.ucla.edu) and available at http://www.cs.ucla.edu/~pouchet/software/polybench/
