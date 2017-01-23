@@ -1,0 +1,14 @@
+**Authors of PolyBench/GPU-OpenACC**
+
+William Killian <killian@udel.edu>
+* Who annotated all test files to include a subset of OpenACC Directives
+
+Scott Grauer-Gray <sgrauerg@udel.edu>
+* Who provided 2D- and 3D-convolution kernel code
+
+Louis-Noel Pouchet <pouchet@cse.ohio-state.edu>
+* Who provided packaging and harmonization of all test files, the PolyBench infrastructure and machinery, and several reference C files.
+
+Uday Bondugula <uday@csa.iisc.ernet.in>
+* Who provided many of the original reference C files, including Fortran to C translation.
+
