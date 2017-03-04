@@ -18,6 +18,22 @@ Sergio Pino, Lori Pollock, and Sunita Chandrasekaran. Exploring translation of O
 }
 ```  
 
+### Benchmarks
+
+| NAS Parallel Benchmarks  ||
+| :------------ | :----------- |
+| BT    | Simulates a CFD application that uses an implicit algorithm to solve the 3-D compressible Navier-Stokes equations. |
+| CG    | Uses a conjugate gradient method to compute an approximation to the smallest eigenvalue of a large, sparse, and unstructured matrix. |
+| EP    | Evaluates an integral using pseudo random generated trials that are processed in an embarrassingly parallel approach. |
+| FT    | Computes a 3-D Fast Fourier Transform by performing three one-dimensional (1-D) FFTs. |
+| LU    | Simulates a CFD application that solves the diagonal system resulting from finite-difference discretization of the Navier-Stokes equations by splitting it into the product of a lower and an upper triangular matrix. |
+| MG    | A simplified multigrid kernel on a sequence of meshes to compute the solution of the 3-D scalar Poisson equation. |
+| SP    | Simulates a CFD application that solves the finite differences using a Beam-Warming approximate factorization that decouples the x, y, and z dimensions. |
+| SHOC Benchmarks  ||
+| MD    | Measures performance for a simple nbody pairwise computation (the Lennard-Jones potential from molecular dynamics). |
+| Reduction    | Measures performance for a large sum reduction operation using single precision floating point data. |
+| Stencil    | Measures performance for a 2D, 9-point single and double precision stencil computation (includes PCIe transfer). |
+
 ###------------From the original repo
 
 ## Cloning the repo
