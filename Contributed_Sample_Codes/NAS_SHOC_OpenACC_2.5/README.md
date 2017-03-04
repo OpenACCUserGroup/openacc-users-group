@@ -4,6 +4,20 @@ Code repository for the benchmarks discussed in our paper "Exploring translation
 
 ## The original repository is hosted at [https://github.com/spino327/NAS_SHOC_OpenACC_2.5](https://github.com/spino327/NAS_SHOC_OpenACC_2.5)
 
+### Citation Information
+#### AsHES '17
+Sergio Pino, Lori Pollock, and Sunita Chandrasekaran. Exploring translation of OpenMP to OpenACC 2.5: Lessons learned,” to appear in Proceedings of the Seventh International Workshop on Accelerators and Hybrid Exascale Systems (AsHES). IEEE Press, 2017.  
+```
+@inproceedings{pino2017exploring,
+ title={Exploring translation of OpenMP to OpenACC 2.5: Lessons Learned},
+ author={Pino, Sergio and Pollock, Lori and Chandrasekaran, Sunita},
+ booktitle={Proceedings of the Seventh International Workshop on Accelerators and Hybrid Exascale Systems (AsHES)},
+ pages={},
+ year={2017},
+ organization={IEEE Press}
+}
+```  
+
 ###------------From the original repo
 
 ## Cloning the repo
