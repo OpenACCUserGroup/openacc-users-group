@@ -1,0 +1,63 @@
+PROGRAM  = $(BINDIR)/$(BENCHMARK).$(PXM)
+CCOMPILE = $(CC)  -c $(C_INC) $(CFLAGS)
+CCOMPILE_pp = $(CC_pp)  -c $(C_INC_pp) $(CFLAGS_pp)
+
+default:: exec
+#default:: ${PROGRAM}
+
+# So that "make benchmark-name" works
+${BENCHMARK}:  default
+
+######################################
+# common files
+######################################
+
+# Paths
+SHOC_COMMON = ${PWD}/../../common
+LIBSHOC_COMMON = ${PWD}/../../../common
+SHOC_CONFIG = ${PWD}/../../../config
+
+# Adding libs
+CFLAGS := $(CFLAGS) -I${LIBSHOC_COMMON} -I${SHOC_CONFIG}
+
+# Objects
+COMMON_OBJS = ${SHOC_COMMON}/main.o\
+    ${LIBSHOC_COMMON}/CTimer.o \
+	${LIBSHOC_COMMON}/ResultDatabase.o \
+	${LIBSHOC_COMMON}/OptionParser.o \
+	${LIBSHOC_COMMON}/Option.o \
+	${LIBSHOC_COMMON}/Timer.o \
+	${LIBSHOC_COMMON}/ProgressBar.o \
+	${LIBSHOC_COMMON}/InvalidArgValue.o \
+	${LIBSHOC_COMMON}/Matrix2DStatics.o \
+
+# Rules
+
+${SHOC_COMMON}/main.o: $(SHOC_COMMON)/main.cpp
+	cd ${SHOC_COMMON}; ${CCOMPILE} main.cpp 
+
+${LIBSHOC_COMMON}/CTimer.o:   $(LIBSHOC_COMMON)/CTimer.cpp
+	cd ${LIBSHOC_COMMON}; ${CCOMPILE} CTimer.cpp 
+
+${LIBSHOC_COMMON}/ResultDatabase.o:   $(LIBSHOC_COMMON)/ResultDatabase.cpp
+	cd ${LIBSHOC_COMMON}; ${CCOMPILE} ResultDatabase.cpp 
+
+${LIBSHOC_COMMON}/OptionParser.o:   $(LIBSHOC_COMMON)/OptionParser.cpp
+	cd ${LIBSHOC_COMMON}; ${CCOMPILE} OptionParser.cpp 
+
+${LIBSHOC_COMMON}/Option.o:   $(LIBSHOC_COMMON)/Option.cpp
+	cd ${LIBSHOC_COMMON}; ${CCOMPILE} Option.cpp 
+
+${LIBSHOC_COMMON}/Timer.o:   $(LIBSHOC_COMMON)/Timer.cpp
+	cd ${LIBSHOC_COMMON}; ${CCOMPILE} Timer.cpp 
+
+${LIBSHOC_COMMON}/ProgressBar.o:   $(LIBSHOC_COMMON)/ProgressBar.cpp
+	cd ${LIBSHOC_COMMON}; ${CCOMPILE} ProgressBar.cpp 
+
+${LIBSHOC_COMMON}/InvalidArgValue.o:   $(LIBSHOC_COMMON)/InvalidArgValue.cpp
+	cd ${LIBSHOC_COMMON}; ${CCOMPILE} InvalidArgValue.cpp 
+
+${LIBSHOC_COMMON}/Matrix2DStatics.o:   $(LIBSHOC_COMMON)/Matrix2DStatics.cpp
+	cd ${LIBSHOC_COMMON}; ${CCOMPILE} Matrix2DStatics.cpp 
+
+

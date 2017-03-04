@@ -1,0 +1,27 @@
+The CUDA implementation of NPB 3.3 (NPB3.3-CUDA)
+--------------------------------------------------
+
+NPB3.3-CUDA is a sample CUDA implementation based on the 
+sequential implementation of the NAS Parallel Benchmarks
+version 3.3.1. This implementation (NPB3.3-CUDA) contains
+three benchmarks: LU, SP, and BT.
+
+1. Compilation and Execution
+  
+   Prerequisites: C++ compiler and a working CUDA installation
+   are required.
+
+   To compile the benchmarks, change into the appropriate
+   subdirectory, adjust the settings in the Makefile to your
+   system and type make. This produces a single executable
+   that includes all benchmark classes. The benchmark class
+   is specified by a command line parameter (see below for
+   an example). If no parameter is provided, the default
+   class 'S' is used.
+
+   Example for LU benchmark:
+   cd LU      
+   make
+   ./lu A    # execute LU benchmark class A
+
+

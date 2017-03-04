@@ -1,0 +1,193 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+BENCHMARK	Makefile	/^BENCHMARK=sp$/;"	m
+BENCHMARKU	Makefile	/^BENCHMARKU=SP$/;"	m
+IMAX	header.h	/^#define IMAX /;"	d
+IMAXP	header.h	/^#define IMAXP /;"	d
+JMAX	header.h	/^#define JMAX /;"	d
+JMAXP	header.h	/^#define JMAXP /;"	d
+KMAX	header.h	/^#define KMAX /;"	d
+OBJS	Makefile	/^OBJS = sp.o initialize.o exact_solution.o exact_rhs.o \\$/;"	m
+SHELL	Makefile	/^SHELL=\/bin\/sh$/;"	m
+_F8MAX	header.h	/^#define _F8MAX(/;"	d
+__PRINT_RESULTS_H__	print_results.h	/^#define __PRINT_RESULTS_H__$/;"	d
+__TIMERS_H__	timers.h	/^#define __TIMERS_H__$/;"	d
+__TYPE_H__	type.h	/^#define __TYPE_H__$/;"	d
+add	add.c	/^void add()$/;"	f
+adi	adi.c	/^void adi()$/;"	f
+bt	sp.c	/^       c3, c4, c5, c4dssp, c5dssp, dtdssp, dttx1, bt,$/;"	v
+buf	sp.c	/^double buf[PROBLEM_SIZE][5];$/;"	v
+c1	sp.c	/^       dnzm1, c1c2, c1c5, c3c4, c1345, conz1, c1, c2, $/;"	v
+c1345	sp.c	/^       dnzm1, c1c2, c1c5, c3c4, c1345, conz1, c1, c2, $/;"	v
+c1c2	sp.c	/^       dnzm1, c1c2, c1c5, c3c4, c1345, conz1, c1, c2, $/;"	v
+c1c5	sp.c	/^       dnzm1, c1c2, c1c5, c3c4, c1345, conz1, c1, c2, $/;"	v
+c2	sp.c	/^       dnzm1, c1c2, c1c5, c3c4, c1345, conz1, c1, c2, $/;"	v
+c2dttx1	sp.c	/^       dttx2, dtty1, dtty2, dttz1, dttz2, c2dttx1, $/;"	v
+c2dtty1	sp.c	/^       c2dtty1, c2dttz1, comz1, comz4, comz5, comz6, $/;"	v
+c2dttz1	sp.c	/^       c2dtty1, c2dttz1, comz1, comz4, comz5, comz6, $/;"	v
+c2iv	sp.c	/^       c3c4tx3, c3c4ty3, c3c4tz3, c2iv, con43, con16;$/;"	v
+c3	sp.c	/^       c3, c4, c5, c4dssp, c5dssp, dtdssp, dttx1, bt,$/;"	v
+c3c4	sp.c	/^       dnzm1, c1c2, c1c5, c3c4, c1345, conz1, c1, c2, $/;"	v
+c3c4tx3	sp.c	/^       c3c4tx3, c3c4ty3, c3c4tz3, c2iv, con43, con16;$/;"	v
+c3c4ty3	sp.c	/^       c3c4tx3, c3c4ty3, c3c4tz3, c2iv, con43, con16;$/;"	v
+c3c4tz3	sp.c	/^       c3c4tx3, c3c4ty3, c3c4tz3, c2iv, con43, con16;$/;"	v
+c4	sp.c	/^       c3, c4, c5, c4dssp, c5dssp, dtdssp, dttx1, bt,$/;"	v
+c4dssp	sp.c	/^       c3, c4, c5, c4dssp, c5dssp, dtdssp, dttx1, bt,$/;"	v
+c5	sp.c	/^       c3, c4, c5, c4dssp, c5dssp, dtdssp, dttx1, bt,$/;"	v
+c5dssp	sp.c	/^       c3, c4, c5, c4dssp, c5dssp, dtdssp, dttx1, bt,$/;"	v
+ce	sp.c	/^       ce[5][13], dxmax, dymax, dzmax, xxcon1, xxcon2, $/;"	v
+compute_rhs	rhs.c	/^void compute_rhs()$/;"	f
+comz1	sp.c	/^       c2dtty1, c2dttz1, comz1, comz4, comz5, comz6, $/;"	v
+comz4	sp.c	/^       c2dtty1, c2dttz1, comz1, comz4, comz5, comz6, $/;"	v
+comz5	sp.c	/^       c2dtty1, c2dttz1, comz1, comz4, comz5, comz6, $/;"	v
+comz6	sp.c	/^       c2dtty1, c2dttz1, comz1, comz4, comz5, comz6, $/;"	v
+con16	sp.c	/^       c3c4tx3, c3c4ty3, c3c4tz3, c2iv, con43, con16;$/;"	v
+con43	sp.c	/^       c3c4tx3, c3c4ty3, c3c4tz3, c2iv, con43, con16;$/;"	v
+conz1	sp.c	/^       dnzm1, c1c2, c1c5, c3c4, c1345, conz1, c1, c2, $/;"	v
+cuf	sp.c	/^double cuf [PROBLEM_SIZE];$/;"	v
+cv	sp.c	/^double cv  [PROBLEM_SIZE];$/;"	v
+dcomplex	type.h	/^} dcomplex;$/;"	t	typeref:struct:__anon2
+dealloca	header.h	/^#define dealloca(/;"	d
+dnxm1	sp.c	/^       dz2tz1, dz3tz1, dz4tz1, dz5tz1, dnxm1, dnym1, $/;"	v
+dnym1	sp.c	/^       dz2tz1, dz3tz1, dz4tz1, dz5tz1, dnxm1, dnym1, $/;"	v
+dnzm1	sp.c	/^       dnzm1, c1c2, c1c5, c3c4, c1345, conz1, c1, c2, $/;"	v
+dssp	sp.c	/^       dy5, dz1, dz2, dz3, dz4, dz5, dssp, dt, $/;"	v
+dt	sp.c	/^       dy5, dz1, dz2, dz3, dz4, dz5, dssp, dt, $/;"	v
+dtdssp	sp.c	/^       c3, c4, c5, c4dssp, c5dssp, dtdssp, dttx1, bt,$/;"	v
+dttx1	sp.c	/^       c3, c4, c5, c4dssp, c5dssp, dtdssp, dttx1, bt,$/;"	v
+dttx2	sp.c	/^       dttx2, dtty1, dtty2, dttz1, dttz2, c2dttx1, $/;"	v
+dtty1	sp.c	/^       dttx2, dtty1, dtty2, dttz1, dttz2, c2dttx1, $/;"	v
+dtty2	sp.c	/^       dttx2, dtty1, dtty2, dttz1, dttz2, c2dttx1, $/;"	v
+dttz1	sp.c	/^       dttx2, dtty1, dtty2, dttz1, dttz2, c2dttx1, $/;"	v
+dttz2	sp.c	/^       dttx2, dtty1, dtty2, dttz1, dttz2, c2dttx1, $/;"	v
+dx1	sp.c	/^       dx1, dx2, dx3, dx4, dx5, dy1, dy2, dy3, dy4, $/;"	v
+dx1tx1	sp.c	/^       xxcon3, xxcon4, xxcon5, dx1tx1, dx2tx1, dx3tx1,$/;"	v
+dx2	sp.c	/^       dx1, dx2, dx3, dx4, dx5, dy1, dy2, dy3, dy4, $/;"	v
+dx2tx1	sp.c	/^       xxcon3, xxcon4, xxcon5, dx1tx1, dx2tx1, dx3tx1,$/;"	v
+dx3	sp.c	/^       dx1, dx2, dx3, dx4, dx5, dy1, dy2, dy3, dy4, $/;"	v
+dx3tx1	sp.c	/^       xxcon3, xxcon4, xxcon5, dx1tx1, dx2tx1, dx3tx1,$/;"	v
+dx4	sp.c	/^       dx1, dx2, dx3, dx4, dx5, dy1, dy2, dy3, dy4, $/;"	v
+dx4tx1	sp.c	/^       dx4tx1, dx5tx1, yycon1, yycon2, yycon3, yycon4,$/;"	v
+dx5	sp.c	/^       dx1, dx2, dx3, dx4, dx5, dy1, dy2, dy3, dy4, $/;"	v
+dx5tx1	sp.c	/^       dx4tx1, dx5tx1, yycon1, yycon2, yycon3, yycon4,$/;"	v
+dxmax	sp.c	/^       ce[5][13], dxmax, dymax, dzmax, xxcon1, xxcon2, $/;"	v
+dy1	sp.c	/^       dx1, dx2, dx3, dx4, dx5, dy1, dy2, dy3, dy4, $/;"	v
+dy1ty1	sp.c	/^       yycon5, dy1ty1, dy2ty1, dy3ty1, dy4ty1, dy5ty1,$/;"	v
+dy2	sp.c	/^       dx1, dx2, dx3, dx4, dx5, dy1, dy2, dy3, dy4, $/;"	v
+dy2ty1	sp.c	/^       yycon5, dy1ty1, dy2ty1, dy3ty1, dy4ty1, dy5ty1,$/;"	v
+dy3	sp.c	/^       dx1, dx2, dx3, dx4, dx5, dy1, dy2, dy3, dy4, $/;"	v
+dy3ty1	sp.c	/^       yycon5, dy1ty1, dy2ty1, dy3ty1, dy4ty1, dy5ty1,$/;"	v
+dy4	sp.c	/^       dx1, dx2, dx3, dx4, dx5, dy1, dy2, dy3, dy4, $/;"	v
+dy4ty1	sp.c	/^       yycon5, dy1ty1, dy2ty1, dy3ty1, dy4ty1, dy5ty1,$/;"	v
+dy5	sp.c	/^       dy5, dz1, dz2, dz3, dz4, dz5, dssp, dt, $/;"	v
+dy5ty1	sp.c	/^       yycon5, dy1ty1, dy2ty1, dy3ty1, dy4ty1, dy5ty1,$/;"	v
+dymax	sp.c	/^       ce[5][13], dxmax, dymax, dzmax, xxcon1, xxcon2, $/;"	v
+dz1	sp.c	/^       dy5, dz1, dz2, dz3, dz4, dz5, dssp, dt, $/;"	v
+dz1tz1	sp.c	/^       zzcon1, zzcon2, zzcon3, zzcon4, zzcon5, dz1tz1, $/;"	v
+dz2	sp.c	/^       dy5, dz1, dz2, dz3, dz4, dz5, dssp, dt, $/;"	v
+dz2tz1	sp.c	/^       dz2tz1, dz3tz1, dz4tz1, dz5tz1, dnxm1, dnym1, $/;"	v
+dz3	sp.c	/^       dy5, dz1, dz2, dz3, dz4, dz5, dssp, dt, $/;"	v
+dz3tz1	sp.c	/^       dz2tz1, dz3tz1, dz4tz1, dz5tz1, dnxm1, dnym1, $/;"	v
+dz4	sp.c	/^       dy5, dz1, dz2, dz3, dz4, dz5, dssp, dt, $/;"	v
+dz4tz1	sp.c	/^       dz2tz1, dz3tz1, dz4tz1, dz5tz1, dnxm1, dnym1, $/;"	v
+dz5	sp.c	/^       dy5, dz1, dz2, dz3, dz4, dz5, dssp, dt, $/;"	v
+dz5tz1	sp.c	/^       dz2tz1, dz3tz1, dz4tz1, dz5tz1, dnxm1, dnym1, $/;"	v
+dzmax	sp.c	/^       ce[5][13], dxmax, dymax, dzmax, xxcon1, xxcon2, $/;"	v
+elapsed	c_timers.c	/^static double start[64], elapsed[64];$/;"	v	file:
+elapsed_time	c_timers.c	/^static double elapsed_time( void )$/;"	f	file:
+error_norm	error.c	/^void error_norm(double rms[5])$/;"	f
+exact_rhs	exact_rhs.c	/^void exact_rhs()$/;"	f
+exact_solution	exact_solution.c	/^void exact_solution(double xi, double eta, double zeta, double dtemp[5])$/;"	f
+false	type.h	/^typedef enum { false, true } logical;$/;"	e	enum:__anon1
+forcing	sp.c	/^double forcing[5][KMAX][JMAXP+1][IMAXP+1];$/;"	v
+grid_points	sp.c	/^int grid_points[3], nx2, ny2, nz2;$/;"	v
+imag	type.h	/^  double imag;$/;"	m	struct:__anon2
+initialize	initialize.c	/^void initialize()$/;"	f
+lhs	sp.c	/^double lhs [IMAXP+1][IMAXP+1][5];$/;"	v
+lhsm	sp.c	/^double lhsm[IMAXP+1][IMAXP+1][5];$/;"	v
+lhsp	sp.c	/^double lhsp[IMAXP+1][IMAXP+1][5];$/;"	v
+logical	type.h	/^typedef enum { false, true } logical;$/;"	t	typeref:enum:__anon1
+main	sp.c	/^int main(int argc, char *argv[])$/;"	f
+max	type.h	/^#define max(/;"	d
+min	type.h	/^#define min(/;"	d
+ninvr	adi.c	/^void ninvr()$/;"	f
+nx2	sp.c	/^int grid_points[3], nx2, ny2, nz2;$/;"	v
+ny2	sp.c	/^int grid_points[3], nx2, ny2, nz2;$/;"	v
+nz2	sp.c	/^int grid_points[3], nx2, ny2, nz2;$/;"	v
+pinvr	adi.c	/^void pinvr()$/;"	f
+print_results	print_results.c	/^void print_results(char *name, char class, int n1, int n2, int n3, int niter,$/;"	f
+q	sp.c	/^double q   [PROBLEM_SIZE];$/;"	v
+qs	sp.c	/^double qs     [KMAX][JMAXP+1][IMAXP+1];$/;"	v
+real	type.h	/^  double real;$/;"	m	struct:__anon2
+rho_i	sp.c	/^double rho_i  [KMAX][JMAXP+1][IMAXP+1];$/;"	v
+rhon	sp.c	/^double rhon[PROBLEM_SIZE];$/;"	v
+rhoq	sp.c	/^double rhoq[PROBLEM_SIZE];$/;"	v
+rhos	sp.c	/^double rhos[PROBLEM_SIZE];$/;"	v
+rhs	sp.c	/^double rhs[5][KMAX][JMAXP+1][IMAXP+1];$/;"	v
+rhs_norm	error.c	/^void rhs_norm(double rms[5])$/;"	f
+set_constants	set_constants.c	/^void set_constants()$/;"	f
+speed	sp.c	/^double speed  [KMAX][JMAXP+1][IMAXP+1];$/;"	v
+square	sp.c	/^double square [KMAX][JMAXP+1][IMAXP+1];$/;"	v
+start	c_timers.c	/^static double start[64], elapsed[64];$/;"	v	file:
+t_add	header.h	/^#define t_add /;"	d
+t_last	header.h	/^#define t_last /;"	d
+t_ninvr	header.h	/^#define t_ninvr /;"	d
+t_pinvr	header.h	/^#define t_pinvr /;"	d
+t_rdis1	header.h	/^#define t_rdis1 /;"	d
+t_rdis2	header.h	/^#define t_rdis2 /;"	d
+t_rhs	header.h	/^#define t_rhs /;"	d
+t_rhsx	header.h	/^#define t_rhsx /;"	d
+t_rhsy	header.h	/^#define t_rhsy /;"	d
+t_rhsz	header.h	/^#define t_rhsz /;"	d
+t_total	header.h	/^#define t_total /;"	d
+t_txinvr	header.h	/^#define t_txinvr /;"	d
+t_tzetar	header.h	/^#define t_tzetar /;"	d
+t_xsolve	header.h	/^#define t_xsolve /;"	d
+t_ysolve	header.h	/^#define t_ysolve /;"	d
+t_zsolve	header.h	/^#define t_zsolve /;"	d
+timer_clear	c_timers.c	/^void timer_clear( int n )$/;"	f
+timer_read	c_timers.c	/^double timer_read( int n )$/;"	f
+timer_start	c_timers.c	/^void timer_start( int n )$/;"	f
+timer_stop	c_timers.c	/^void timer_stop( int n )$/;"	f
+timeron	sp.c	/^logical timeron;$/;"	v
+true	type.h	/^typedef enum { false, true } logical;$/;"	e	enum:__anon1
+tx1	sp.c	/^double tx1, tx2, tx3, ty1, ty2, ty3, tz1, tz2, tz3, $/;"	v
+tx2	sp.c	/^double tx1, tx2, tx3, ty1, ty2, ty3, tz1, tz2, tz3, $/;"	v
+tx3	sp.c	/^double tx1, tx2, tx3, ty1, ty2, ty3, tz1, tz2, tz3, $/;"	v
+txinvr	txinvr.c	/^void txinvr()$/;"	f
+ty1	sp.c	/^double tx1, tx2, tx3, ty1, ty2, ty3, tz1, tz2, tz3, $/;"	v
+ty2	sp.c	/^double tx1, tx2, tx3, ty1, ty2, ty3, tz1, tz2, tz3, $/;"	v
+ty3	sp.c	/^double tx1, tx2, tx3, ty1, ty2, ty3, tz1, tz2, tz3, $/;"	v
+tz1	sp.c	/^double tx1, tx2, tx3, ty1, ty2, ty3, tz1, tz2, tz3, $/;"	v
+tz2	sp.c	/^double tx1, tx2, tx3, ty1, ty2, ty3, tz1, tz2, tz3, $/;"	v
+tz3	sp.c	/^double tx1, tx2, tx3, ty1, ty2, ty3, tz1, tz2, tz3, $/;"	v
+tzetar	adi.c	/^void tzetar()$/;"	f
+u	sp.c	/^double u[5][KMAX][JMAXP+1][IMAXP+1];$/;"	v
+ue	sp.c	/^double ue [PROBLEM_SIZE][5];$/;"	v
+us	sp.c	/^double us     [KMAX][JMAXP+1][IMAXP+1];$/;"	v
+verify	verify.c	/^void verify(int no_time_steps, char *Class, logical *verified)$/;"	f
+vs	sp.c	/^double vs     [KMAX][JMAXP+1][IMAXP+1];$/;"	v
+ws	sp.c	/^double ws     [KMAX][JMAXP+1][IMAXP+1];$/;"	v
+wtime	wtime.h	/^#define wtime /;"	d
+x_solve	adi.c	/^void x_solve()$/;"	f
+xxcon1	sp.c	/^       ce[5][13], dxmax, dymax, dzmax, xxcon1, xxcon2, $/;"	v
+xxcon2	sp.c	/^       ce[5][13], dxmax, dymax, dzmax, xxcon1, xxcon2, $/;"	v
+xxcon3	sp.c	/^       xxcon3, xxcon4, xxcon5, dx1tx1, dx2tx1, dx3tx1,$/;"	v
+xxcon4	sp.c	/^       xxcon3, xxcon4, xxcon5, dx1tx1, dx2tx1, dx3tx1,$/;"	v
+xxcon5	sp.c	/^       xxcon3, xxcon4, xxcon5, dx1tx1, dx2tx1, dx3tx1,$/;"	v
+y_solve	adi.c	/^void y_solve()$/;"	f
+yycon1	sp.c	/^       dx4tx1, dx5tx1, yycon1, yycon2, yycon3, yycon4,$/;"	v
+yycon2	sp.c	/^       dx4tx1, dx5tx1, yycon1, yycon2, yycon3, yycon4,$/;"	v
+yycon3	sp.c	/^       dx4tx1, dx5tx1, yycon1, yycon2, yycon3, yycon4,$/;"	v
+yycon4	sp.c	/^       dx4tx1, dx5tx1, yycon1, yycon2, yycon3, yycon4,$/;"	v
+yycon5	sp.c	/^       yycon5, dy1ty1, dy2ty1, dy3ty1, dy4ty1, dy5ty1,$/;"	v
+z_solve	adi.c	/^void z_solve()$/;"	f
+zzcon1	sp.c	/^       zzcon1, zzcon2, zzcon3, zzcon4, zzcon5, dz1tz1, $/;"	v
+zzcon2	sp.c	/^       zzcon1, zzcon2, zzcon3, zzcon4, zzcon5, dz1tz1, $/;"	v
+zzcon3	sp.c	/^       zzcon1, zzcon2, zzcon3, zzcon4, zzcon5, dz1tz1, $/;"	v
+zzcon4	sp.c	/^       zzcon1, zzcon2, zzcon3, zzcon4, zzcon5, dz1tz1, $/;"	v
+zzcon5	sp.c	/^       zzcon1, zzcon2, zzcon3, zzcon4, zzcon5, dz1tz1, $/;"	v
