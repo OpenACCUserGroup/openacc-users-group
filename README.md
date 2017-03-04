@@ -19,5 +19,5 @@ Codes are separated into the following categories: data mining, linear-algebra/k
 
 ### NAS_SHOC
 Main Contributor: Sergio Pino <sergiop@udel.edu> - University of Delaware  
-This benchmark suite is partially derived from the [openacc-npb](https://github.com/uhhpctools/openacc-npb) benchmark suite.  
+This benchmark suite is partially derived from the [openacc-npb](https://github.com/uhhpctools/openacc-npb) and [shoc](https://github.com/vetter/shoc) benchmark suites.  
 Codes: benchmarks designed to capture the computational core of the numerical methods used by a computation fluid dynamics applications, and benchmarks that perform low-level operations such as reductions.     
