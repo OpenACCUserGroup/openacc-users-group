@@ -12,10 +12,12 @@ The CONTRIBUTING.md has further guidelines on how to make your contributions to 
 ## Contributed Sample Codes
 
 ### PolyBench-ACC
-1. Main Contributor: William Killian <killian@udel.edu> - University of Delaware
-
-Based off work by: Louis-Noel Pouchet <pouchet@cse.ohio-state.edu> - Ohio State University
-
-This benchmark suite is partially derived from the PolyBench benchmark suite developed by [Louis-Noel Pouchet](pouchet@cs.ucla.edu) and available at http://www.cs.ucla.edu/~pouchet/software/polybench/
-
+Main Contributor: William Killian <killian@udel.edu> - University of Delaware  
+Based off work by: Louis-Noel Pouchet <pouchet@cse.ohio-state.edu> - Ohio State University  
+This benchmark suite is partially derived from the PolyBench benchmark suite developed by [Louis-Noel Pouchet](pouchet@cs.ucla.edu) and available at http://www.cs.ucla.edu/~pouchet/software/polybench/  
 Codes are separated into the following categories: data mining, linear-algebra/kernels, linear-algebra/solvers, and stencils.
+
+### NAS_SHOC
+Main Contributor: Sergio Pino <sergiop@udel.edu> - University of Delaware  
+This benchmark suite is partially derived from the [openacc-npb](https://github.com/uhhpctools/openacc-npb) and [shoc](https://github.com/vetter/shoc) benchmark suites.  
+Codes: benchmarks designed to capture the computational core of the numerical methods used by a computation fluid dynamics applications, and benchmarks that perform low-level operations such as reductions.     

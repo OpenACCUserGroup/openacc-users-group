@@ -1,0 +1,34 @@
+SHELL=/bin/sh
+BENCHMARK=md
+PXM=acc
+
+include ../../../crpl_conf/make.def
+include ../../../crpl_conf/make.common
+
+# List the files that are .c or .cpp as .o
+OBJS = MD.o MDFuncs.o
+      # a.o b.o c.o\
+      # d.o e.o f.o
+	  
+# base compilation rules
+${PROGRAM}: #config
+	${MAKE} exec;
+
+exec: $(COMMON_OBJS) $(OBJS) 
+	${CLINK} ${CLINKFLAGS} -o ${PROGRAM} ${OBJS} ${COMMON_OBJS} ${C_LIB}
+
+# c files rule
+.c.o:
+	${CCOMPILE} ${DEFINES} $<
+
+# c++ files rule
+.cpp.o:
+	${CCOMPILE} ${DEFINES} $<
+
+# List of rules per object (.o)
+MD.o:	MD.cpp
+MDFuncs.o:	MDFuncs.cpp
+#a.o:   a.c  some.h
+
+clean:
+	- rm -f *.o *~ $(BINDIR)/$(BENCHMARK).$(PXM) ${OBJS} ${COMMON_OBJS}
