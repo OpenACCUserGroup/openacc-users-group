@@ -5,7 +5,7 @@ CPP=pgc++
 FC=pgfortran
 TIMER=/usr/bin/time
 OPT=
-NOPT=-fast -Minfo $(OPT)
+NOPT=-fast -Minfo=opt $(OPT)
 ARGS=1000
 
 c++: jsolvec.exe
