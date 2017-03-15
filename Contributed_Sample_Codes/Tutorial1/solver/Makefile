@@ -21,4 +21,4 @@ jsolvef.exe: jsolvef.F90
 both: c++ fortran
 
 clean:
-	rm -f *.o *.exe *.s a.out
+	rm -f *.o *.exe *.s *.mod a.out
