@@ -23,5 +23,5 @@ This benchmark suite is partially derived from the [openacc-npb](https://github.
 Codes: benchmarks designed to capture the computational core of the numerical methods used by a computation fluid dynamics applications, and benchmarks that perform low-level operations such as reductions.     
 
 ### Tutorial1
-Main Contributor: Michae Wolfe <mwolfe@nvidia.com> - NVIDIA Corp.
+Main Contributor: Michael Wolfe <mwolfe@nvidia.com> - NVIDIA Corp.
 These are small sample programs used in OpenACC introductory tutorials.
