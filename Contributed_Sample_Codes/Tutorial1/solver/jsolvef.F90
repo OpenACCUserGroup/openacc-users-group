@@ -160,12 +160,12 @@ program main
   chksum = 0
 
   do i = 1, nsize
-    tmp = 0
+    rsum = 0
     do j = 1, nsize
-      tmp = tmp + A(j,i) * xnew(j)
+      rsum = rsum + A(j,i) * xnew(j)
     enddo
-    tmp = tmp - b(i)
-    err = err + tmp*tmp
+    rsum = rsum - b(i)
+    err = err + rsum*rsum
     chksum = chksum + xnew(i)
   enddo
   err = sqrt(err)
